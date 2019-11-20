@@ -1,9 +1,13 @@
 .row{
   text-align:center;
-  
+  color:deeppink;
 }
 #choices{
   display:flex;
   justify-content:space-between;
-  
+  color:deeppink;
+}
+body{
+  background-color:darkgreen; 
+  font-family: Josefin Sans;
 }

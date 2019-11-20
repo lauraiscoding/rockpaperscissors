@@ -25,23 +25,23 @@ $("#shoot").click(function () {
     }
     console.log(Userchoice);
     console.log(Computerchoice);
-    if (Userchoice === "Rock" && Computerchoice === "Rock") {
+    if (Userchoice === "Rock" || Userchoice === "rock" && Computerchoice === "Rock") {
         $("#result").text("Tie!");
-    } else if (Userchoice === "Rock" && Computerchoice === "Paper") {
+    } else if (Userchoice === "Rock"|| Userchoice === "rock" && Computerchoice === "Paper") {
         $("#result").text("Computer Wins!");
-    } else if (Userchoice === "Rock" && Computerchoice === "Scissors") {
+    } else if (Userchoice === "Rock"|| Userchoice === "rock" && Computerchoice === "Scissors") {
         $("#result").text("You Win!");
-    } else if (Userchoice === "Paper" && Computerchoice === "Rock") {
+    } else if (Userchoice === "Paper" || Userchoice === "paper"&& Computerchoice === "Rock") {
         $("#result").text("You Win!");
-    } else if (Userchoice === "Paper" && Computerchoice === "Paper") {
+    } else if (Userchoice === "Paper"|| Userchoice === "paper"  && Computerchoice === "Paper") {
         $("#result").text("Tie!");
-    } else if (Userchoice === "Paper" && Computerchoice === "Scissors") {
+    } else if (Userchoice === "Paper" || Userchoice === "paper" && Computerchoice === "Scissors") {
         $("#result").text("Computer Wins!");
-    } else if (Userchoice === "Scissors" && Computerchoice === "Rock") {
+    } else if (Userchoice === "Scissors" || Userchoice === "scissors" && Computerchoice === "Rock") {
         $("#result").text("Computer Wins!");
-    } else if (Userchoice === "Scissors" && Computerchoice === "Paper") {
+    } else if (Userchoice === "Scissors" || Userchoice === "scissors" && Computerchoice === "Paper") {
         $("#result").text("You Win!");
-    } else if (Userchoice === "Scissors" && Computerchoice === "Scissors") {
+    } else if (Userchoice === "Scissors" || Userchoice === "scissors" && Computerchoice === "Scissors") {
         $("#result").text("Tie!");
     } else {
         $("#result").text("Try Again!");
